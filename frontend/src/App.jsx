@@ -1,8 +1,8 @@
-import UserList from "./components/UserList";
+import UserList from "./UserList";
 
 function App() {
     return (
-        <div className="min-h-screen flex items-center justify-center">
+        <div className="App flex items-center justify-center min-h-screen">
             <UserList />
         </div>
     );

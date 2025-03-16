@@ -1,7 +1,7 @@
 Postgres:
 
 psql -U admin -d users_db
-INSERT INTO public.Users (name, email, city) VALUES ('Bob', 'bob@example.com', 'Stuttgart);
+INSERT INTO users (name, email, city) VALUES ('Bob', 'bob@example.com', 'Stuttgart);
 
 MongoDB
 
